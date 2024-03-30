@@ -9,14 +9,7 @@ export default function Catalogue() {
      {/* <h2 className='Categorie-main-text'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Catalogue des pièces auto
      <Recherche />
      </h2> */}
-     <form method="get" action="/pieces-auto/recherche" class="autocomplete" data-controller="form--autocomplete" data-form--autocomplete-dropdown-class="autocomplete__dropdown__main-search" data-form--autocomplete-url-value="/ajax/autocomplete" data-action="submit->form--autocomplete#go" data-form--autocomplete-focus-param="true" >
-                <div class="mb-0 mt-2">        <div class="input-group input-group--btn-inside position-relative" data-controller="form--input-clear"><input type="search" name="q" required="required" data-action="input->form--autocomplete#search keydown->form--autocomplete#changeFocus focus->form--autocomplete#focus" data-form--autocomplete-target="input" class="text-truncate form-control" data-hj-allow="" placeholder="Entrer la référence ou le nom de la pièce" autocomplete="off" data-form--input-clear-target="input"/>
-        <button class="btn btn-primary" type="submit">
-            <i class="fa fa-search"></i>
-        </button>
-    </div>
-        </div>
-                </form>
+     
 
     <div className='Categorie-main-Global'>
       <div className='Categorie-main-Global-row1'>{/* fin row 1 */}

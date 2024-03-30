@@ -13,7 +13,8 @@ import PiecesA from './components/PiecesA';
 import Footer from './components/Footer';
 import Categorie from './components/Categorie';
 import Catalogue from './components/Catalogue';
-// import Recherche from './components/Recherche';
+import Fournisseurs from './components/Fournisseurs';
+import MarquesA from './components/MarquesA';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -35,7 +36,9 @@ function App() {
           <Route path='Categorie' element={<Categorie/>} />
           <Route path='Catalogue' element={<Catalogue/>}/>
           <Route path='footer' element={<Footer/>} />
-          {/* <Route path='Recherche' element={<Recherche/>} /> */}
+          <Route path='Fournisseurs' element={<Fournisseurs/>} />
+          <Route path='MarquesA' element={<MarquesA/>} />
+          
           
 </Route>
 </Routes>

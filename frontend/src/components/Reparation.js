@@ -102,7 +102,7 @@ export default function Reparation() {
             <option value="option2">Essence</option>
         </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        <label htmlFor='Panne'>Détail</label>&nbsp;&nbsp;
-       <input className='reparation-input' name='Panne' type='texte'  placeholder='entrer la référence' />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input className='reparation-input' name='Panne' type='texte'  placeholder="info sur la panne" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        <br/><br/>
        <button className='Reparation-btn'> Demander un devis de réparation </button>&nbsp;&nbsp;
       </div>
