@@ -94,11 +94,19 @@ export default function About() {
 </div>
    <div className='Home-content'>
     {/* <img src={hometof} alt="hometof.png" style={{ width: '100%', height: '5%'}} /> */}
-    
     <div className='Home-text'>
-     <h1 >Chez Hafid Pièces Auto,la meilleure qualité au meilleur prix! </h1>
+      <h1 >Chez Hafid Pièces Auto,la meilleure qualité au meilleur prix! </h1>
     </div>
-    </div>
+    <form className='Navbar-link' method="get" action="/pieces-auto/recherche" class="autocomplete" data-controller="form--autocomplete" data-form--autocomplete-dropdown-class="autocomplete__dropdown__main-search" data-form--autocomplete-url-value="/ajax/autocomplete" data-action="submit->form--autocomplete#go" data-form--autocomplete-focus-param="true" >
+      <div class="mb-0 mt-2">        
+        <div class="input-group input-group--btn-inside position-relative" data-controller="form--input-clear"><input type="search" name="q" required="required" data-action="input->form--autocomplete#search keydown->form--autocomplete#changeFocus focus->form--autocomplete#focus" data-form--autocomplete-target="input" class="text-truncate form-control" data-hj-allow="" placeholder="Entrer la référence ou le nom de la pièce" autocomplete="off" data-form--input-clear-target="input"/>
+          <button class="btn btn-primary" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>  
+  </div>
     <div class="row text-center">
                                                         <div class="col-6 col-sm-3 col-xl-2 mb-2">
                     <a href="/constructeurs/audi/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
@@ -165,8 +173,8 @@ export default function About() {
             </div>
                                             <div class="col-6 col-sm-3 col-xl-2 mb-2">
                     <a href="/constructeurs/renault/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <imge class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.webp" type="image/webp"/>
-                        <picture class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.png" alt="Renault" width="100" height="55" loading="lazy"/>
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.png" alt="Renault" width="100" height="55" loading="lazy"/>
                     
                                 <div class="text-black mt-auto">Renault</div>
             </a>

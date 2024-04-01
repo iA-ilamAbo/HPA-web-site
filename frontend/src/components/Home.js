@@ -5,6 +5,127 @@ import React from 'react'
 export default function Home() {
   return (
   <div> 
+
+  <div className='Home-content'>
+    {/* <img src={hometof} alt="hometof.png" style={{ width: '100%', height: '5%'}} /> */}
+    <div className='Home-text'>
+      <h1 >Chez Hafid Pièces Auto,la meilleure qualité au meilleur prix! </h1>
+    </div>
+    <form className='Navbar-link' method="get" action="/pieces-auto/recherche" class="autocomplete" data-controller="form--autocomplete" data-form--autocomplete-dropdown-class="autocomplete__dropdown__main-search" data-form--autocomplete-url-value="/ajax/autocomplete" data-action="submit->form--autocomplete#go" data-form--autocomplete-focus-param="true" >
+      <div class="mb-0 mt-2">        
+        <div class="input-group input-group--btn-inside position-relative" data-controller="form--input-clear"><input type="search" name="q" required="required" data-action="input->form--autocomplete#search keydown->form--autocomplete#changeFocus focus->form--autocomplete#focus" data-form--autocomplete-target="input" class="text-truncate form-control" data-hj-allow="" placeholder="Entrer la référence ou le nom de la pièce" autocomplete="off" data-form--input-clear-target="input"/>
+          <button class="btn btn-primary" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>  
+  </div>
+     
+    <div class="row text-center">
+                                                        <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/audi/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/5_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/5_100.png" alt="Audi" width="100" height="55" loading="lazy"/>
+                  
+                                <div class="text-black mt-auto">Audi</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/bmw/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/1/6_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/1/6_100.png" alt="BMW" width="100" height="55" loading="lazy"/>
+                   
+                                <div class="text-black mt-auto">BMW</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/citroen/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/2/1_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/2/1_100.png" alt="Citroën" width="100" height="55" loading="lazy"/>
+                   
+                                <div class="text-black mt-auto">Citroën</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/fiat/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/3/5_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/3/5_100.png" alt="Fiat" width="100" height="55" loading="lazy"/>
+                    
+                                <div class="text-black mt-auto">Fiat</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/ford/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/3/6_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/3/6_100.png" alt="Ford" width="100" height="55" loading="lazy"/>
+                   
+                                <div class="text-black mt-auto">Ford</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/mercedes-benz/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/7/4_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/7/4_100.png" alt="Mercedes-Benz" width="100" height="55" loading="lazy"/>
+                    
+                                <div class="text-black mt-auto">Mercedes-Benz</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/opel/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/4_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/4_100.png" alt="Opel" width="100" height="55" loading="lazy"/>
+                                                 <div class="text-black mt-auto">Opel</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/peugeot/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/8_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/8_100.png" alt="Peugeot" width="100" height="55" loading="lazy"/>
+                    
+                                <div class="text-black mt-auto">Peugeot</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/renault/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.png" alt="Renault" width="100" height="55" loading="lazy"/>
+                    
+                                <div class="text-black mt-auto">Renault</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/seat/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2"source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/0/4_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/0/4_100.png" alt="Seat" width="100" height="55" loading="lazy"/>
+                   
+                                <div class="text-black mt-auto">Seat</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/toyota/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/1/1_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/1/1_100.png" alt="Toyota" width="100" height="55" loading="lazy"/>
+                    
+                                <div class="text-black mt-auto">Toyota</div>
+            </a>
+            </div>
+                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
+                    <a href="/constructeurs/volkswagen/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
+                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/2/1_100.webp" type="image/webp"/>
+                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/2/1_100.png" alt="Volkswagen" width="100" height="55" loading="lazy"/>
+              
+                                <div class="text-black mt-auto">Volkswagen</div>
+            </a>
+            </div>
+    </div>
+    
+    {/* <div className='home-services'>
+      <div>Pièces auto neuves<div>
+      <div>Service de LiveChat</div>
+      <div>Très large choix de pièces</div>
+      <div>Livraison rapide</div>
+    </div> */}
   <div class="row">
                 <div class="col-xl-5">
                     <h2>
@@ -91,118 +212,8 @@ export default function Home() {
 <p>Chez Hafid Pièces Auto, nous nous engageons à rendre votre expérience automobile aussi agréable que possible. Pour simplifier les choses, nous assurons la livraison directe à votre porte, où que vous soyez à Casa. Ainsi, vous pouvez profiter pleinement de votre véhicule en toute confiance, sachant que vous bénéficiez des meilleurs composants.</p>
  </div>
 
-</div>
-   <div className='Home-content'>
-    {/* <img src={hometof} alt="hometof.png" style={{ width: '100%', height: '5%'}} /> */}
-    
-    <div className='Home-text'>
-     <h1 >Chez Hafid Pièces Auto,la meilleure qualité au meilleur prix! </h1>
-    </div>
-    </div>
-    <div class="row text-center">
-                                                        <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/audi/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/5_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/5_100.png" alt="Audi" width="100" height="55" loading="lazy"/>
-                  
-                                <div class="text-black mt-auto">Audi</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/bmw/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/1/6_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/1/6_100.png" alt="BMW" width="100" height="55" loading="lazy"/>
-                   
-                                <div class="text-black mt-auto">BMW</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/citroen/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/2/1_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/2/1_100.png" alt="Citroën" width="100" height="55" loading="lazy"/>
-                   
-                                <div class="text-black mt-auto">Citroën</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/fiat/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/3/5_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/3/5_100.png" alt="Fiat" width="100" height="55" loading="lazy"/>
-                    
-                                <div class="text-black mt-auto">Fiat</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/ford/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/3/6_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/3/6_100.png" alt="Ford" width="100" height="55" loading="lazy"/>
-                   
-                                <div class="text-black mt-auto">Ford</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/mercedes-benz/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/7/4_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/7/4_100.png" alt="Mercedes-Benz" width="100" height="55" loading="lazy"/>
-                    
-                                <div class="text-black mt-auto">Mercedes-Benz</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/opel/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/4_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/4_100.png" alt="Opel" width="100" height="55" loading="lazy"/>
-                                                 <div class="text-black mt-auto">Opel</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/peugeot/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/8_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/8/8_100.png" alt="Peugeot" width="100" height="55" loading="lazy"/>
-                    
-                                <div class="text-black mt-auto">Peugeot</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/renault/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <imge class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.webp" type="image/webp"/>
-                        <picture class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/custom/9/3_100.png" alt="Renault" width="100" height="55" loading="lazy"/>
-                    
-                                <div class="text-black mt-auto">Renault</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/seat/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2"source srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/0/4_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/0/4_100.png" alt="Seat" width="100" height="55" loading="lazy"/>
-                   
-                                <div class="text-black mt-auto">Seat</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/toyota/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/1/1_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/1/1_100.png" alt="Toyota" width="100" height="55" loading="lazy"/>
-                    
-                                <div class="text-black mt-auto">Toyota</div>
-            </a>
-            </div>
-                                            <div class="col-6 col-sm-3 col-xl-2 mb-2">
-                    <a href="/constructeurs/volkswagen/" class="text-black d-flex flex-column fw-bold rounded-bordered h-100">
-                                    <picture class="d-block mb-2" srcset="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/2/1_100.webp" type="image/webp"/>
-                        <img class="img-fluid" src="https://cdn.distriauto.eu/assets/img/vehicle/manufacturer/1/2/1_100.png" alt="Volkswagen" width="100" height="55" loading="lazy"/>
-              
-                                <div class="text-black mt-auto">Volkswagen</div>
-            </a>
-            </div>
-    </div>
-    
-    {/* <div className='home-services'>
-      <div>Pièces auto neuves<div>
-      <div>Service de LiveChat</div>
-      <div>Très large choix de pièces</div>
-      <div>Livraison rapide</div>
-    </div> */}
+  </div>
+   
   
   </div>
   )

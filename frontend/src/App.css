@@ -93,12 +93,21 @@ font-family: Graphik, Arial, sans-serif;
   color: blue;
 }
 .Home-text{
+  
   /* color:yellowgreen; */
   color:yellow;
   /* background-color: yellowgreen; */
   text-align: center;
+  font-size: 4rem;
+  font-family: Graphik, Arial, sans-serif;
+  font-weight: 700;
  }
 .Home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 background-image: url('./Assets/hometof.png');
 background-size: cover;
 background-repeat: no-repeat;
